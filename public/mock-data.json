@@ -1,0 +1,72 @@
+{
+  "schedules": [
+    {
+      "id": "1",
+      "company": "Kamil Koç",
+      "from": "İstanbul",
+      "to": "Ankara",
+      "departure": "2025-11-24T09:00:00",
+      "arrival": "2025-11-24T14:30:00",
+      "price": 350,
+      "availableSeats": 8
+    },
+    {
+      "id": "2",
+      "company": "Pamukkale",
+      "from": "İzmir",
+      "to": "İstanbul",
+      "departure": "2025-11-24T11:00:00",
+      "arrival": "2025-11-24T18:00:00",
+      "price": 420,
+      "availableSeats": 12
+    },
+    {
+      "id": "3",
+      "company": "Metro Turizm",
+      "from": "Antalya",
+      "to": "İstanbul",
+      "departure": "2025-11-24T07:30:00",
+      "arrival": "2025-11-24T15:00:00",
+      "price": 390,
+      "availableSeats": 5
+    }
+  ],
+
+  "seatSchemas": [
+    {
+      "tripId": "1",
+      "layout": [
+        [1, 2, null, 3, 4],
+        [5, 6, null, 7, 8],
+        [9, 10, null, 11, 12],
+        [13, 14, null, 15, 16],
+        [17, 18, null, 19, 20],
+        [21, 22, "door", null, null],
+        [23, 24, null, 25, 26],
+        [27, 28, null, 29, 30],
+        [31, 32, null, 33, 34],
+        [35, 36, null, 37, 38]
+      ],
+      "occupiedSeats": [2, 5, 9, 18, 21, 24]
+    },
+    {
+      "tripId": "2",
+      "layout": [
+        [1, 2, null, 3, 4],
+        [5, 6, null, 7, 8],
+        [9, 10, null, 11, 12],
+        [13, 14, null, 15, 16],
+        [17, 18, null, 19, 20],
+        [21, 22, "door", null, null],
+        [23, 24, null, 25, 26],
+        [27, 28, null, 29, 30],
+        [31, 32, null, 33, 34],
+        [35, 36, null, 37, 38]
+      ],
+      "occupiedSeats": [6, 14, 15, 33]
+    }
+  ]
+
+
+  
+}
